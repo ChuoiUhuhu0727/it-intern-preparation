@@ -1,0 +1,12 @@
+# local / generated
+reports/
+*.log
+*.tmp
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+
+# claude local config
+.claude/
