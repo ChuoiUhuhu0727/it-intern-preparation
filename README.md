@@ -45,6 +45,21 @@ One runnable project per week, each mapping to a real task an IT intern does in 
 | **3** (Aug 3–9) | Networking | `net-toolkit/` — ping sweep to find live machines in a subnet + IP/subnet calculator + connectivity troubleshooter | Finding which machine dropped off the network; diagnosing "no internet" |
 | **4** (Aug 10–15) | Helpdesk | `helpdesk-runbook/` — triage playbook for common lab incidents + repo polish + demo | Structured, repeatable user support |
 
+## Why this track — and what it costs
+
+Long-term I want to be an **embedded systems / robotics engineer**. These projects aren't the *core* of that — firmware, real-time, and control theory live elsewhere. They're the **enabling layer**: Linux fluency, automation, systematic debugging, and the `sense → threshold → act` reflex that every robot loop shares. I'm walking this track with eyes open about the trade-offs:
+
+- **Opportunity cost** — hours here are hours not spent deepening robotics. IT skills plateau fast; domain depth compounds. So this track is deliberately **time-boxed to 4 weeks**.
+- **Breadth vs depth** — helpdesk/sysadmin work is broad and shallow; robotics needs deep vertical mastery. This is a foundation, not a destination.
+- **Comfort trap** — scripting gives fast green-check dopamine; embedded gives slow, painful wins. I watch for drifting toward the easy track and avoiding the hard one.
+
+**Guardrails I hold myself to:**
+
+- **Build first, polish later** — working code before a pretty README.
+- Before opening a new thing to read: *"does this produce something runnable in the next 60 minutes?"* If not, log it and move on.
+- Each project consciously **pulls a robotics thread** — Python over shell where sensible; make `sense → threshold → act` explicit.
+- **Explain the code back before shipping it** — understand the concept, not just the output.
+
 ## Status
 
 - [x] Repo scaffolded
